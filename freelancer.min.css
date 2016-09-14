@@ -11,9 +11,11 @@ p, a {
     color: #707070; 
 }
 
-p#bio { line-height: 20px; }
+p #bio { 
+    line-height: 20px; 
+}
 
-p.heading {
+p .heading {
     font-size: 11px;
     color: #9B9B9B;
     letter-spacing: 2px;
@@ -37,7 +39,9 @@ h2 {
     line-height: 22px;
 }
 
-header { color: #595959; }
+header { 
+    color: #595959; 
+}
 
 img {
     display: block;
@@ -47,14 +51,19 @@ img {
     padding-top: 10px;
 }
 
-section { padding: 100px 0 }
+section { 
+    padding: 100px 0;
+}
 
 
 /* Responsiveness*/
 
 @media (max-width: 500px) {
     img { width: 150px; }
-    body { padding-left: 50px; padding-right: 50px; }
+    body { 
+        padding-left: 50px; 
+        padding-right: 50px; 
+    }
     h2 { padding-top: 50px; }
 }
 
@@ -63,15 +72,20 @@ section { padding: 100px 0 }
         padding-top: 70px;
         padding-bottom: 50px;
     }
-    body { padding-left: 50px; padding-right: 50px; }
+    body { 
+        padding-left: 50px; 
+        padding-right: 50px; 
+    }
+    h2 { padding-top: 50px; }
     img { width: 100px; }
 }
 
 @media (min-width: 800px) {
     header .container {
-        padding-top: 70px;
+        padding-top: 30px;
         padding-bottom: 50px;
     }
-    body { padding-left: 50px; padding-right: 50px; }
-    img { width: 130px; }
+    body { padding-right: 50px; }
+    h2 { padding-top: 50px; }
+    img { width: 130px; padding-top: 50px;}
 }
