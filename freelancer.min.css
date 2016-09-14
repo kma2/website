@@ -2,6 +2,7 @@ body {
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', Helvetica, sans-serif;
     overflow-x: hidden;
     padding-left: 150px;
+    background-image: url("background.jpg");
 }
 
 p, a {
