@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     padding-left: 150px;
     background-image: url("background.jpg");
+    color: #595959; 
 }
 
 p, a {
@@ -17,6 +18,7 @@ p, a {
     color: #FD8F80;
     letter-spacing: 2px;
     line-height: 15px;
+    letter-spacing: 2px;
 }
 
 a {
@@ -37,10 +39,6 @@ h2 {
     line-height: 22px;
 }
 
-header { 
-    color: #595959; 
-}
-
 img {
     display: block;
     margin: 0 auto 20px;
@@ -54,7 +52,7 @@ section {
 }
 
 
-/* Responsiveness*/
+/* ======= Responsive ======= */
 
 @media (max-width: 500px) {
     img { width: 150px; }
@@ -66,7 +64,7 @@ section {
 }
 
 @media (max-width: 800px) {
-    header .container {
+    body .container {
         padding-top: 70px;
         padding-bottom: 50px;
     }
@@ -79,7 +77,7 @@ section {
 }
 
 @media (min-width: 800px) {
-    header .container {
+    body .container {
         padding-top: 30px;
         padding-bottom: 50px;
     }
