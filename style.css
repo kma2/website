@@ -10,29 +10,23 @@ body {
     color: #595959;
 }
 
-#sidebar {
-    padding-bottom: 8%;
-    position: fixed;
+/* ==== sidebar styling ==== */
+
+#left-column {
+    padding-bottom: 10%;
 }
 
-#content {
-    padding-bottom: 5%;
-    margin-left: 25%;
+img#my-photo {
+    padding-bottom: 10%;
 }
+
+/* ==== text styling ==== */
 
 p, a {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 32px;
     color: #707070;
-}
-
-#small_text {
-    font-size: 12px;
-    color: #FD8F80;
-    letter-spacing: 2px;
-    line-height: 15px;
-    letter-spacing: 2px;
 }
 
 a {
@@ -53,9 +47,155 @@ h2 {
     line-height: 22px;
 }
 
-div.pic {
+#small_text {
+    font-size: 13px;
+    color: #FD8F80;
+    letter-spacing: 2px;
+    line-height: 15px;
+}
+
+
+/* ==== right column styling ==== */
+
+#right-column {
     width: 100%;
-    overflow: hidden;
+}
+
+#about-me {
+    padding-bottom: 3%;
+}
+
+
+/* ==== show more/less bio ==== */
+
+article {
+  border-bottom: 1px solid black;
+}
+
+.read-more-toggle, .read-more-toggle {
+    padding-top: 1%;
+}
+
+p#toggle {
+    font-size: 1em;
+    color: #FD8F80;
+    letter-spacing: 2px;
+}
+
+p#toggle:hover {
+    font-size: 1.05em;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* ==== projects ==== */
+
+#project-section {
+    padding-bottom: 2%;
+}
+
+.mask {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 4%;
     display: block;
-    padding-bottom: 10%;
+    background-size: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
+    -moz-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
+    box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
+
+}
+
+#project1 {
+    background-image: url("./assets/microsoft_banner.png");
+}
+
+#project2 {
+    background-image: url("./assets/uberexplore_banner.png");
+}
+
+#project3 {
+    background-image: url("./assets/whack_banner.png");
+}
+
+#project4 {
+    background-image: url("./assets/print_banner.png");
+}
+
+#project5 {
+    background-image: url("./assets/photography_banner.png");
+}
+
+#projectName {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.project {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: normal;
+    margin-top: 21%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+
+/* ==== footer ==== */
+
+.footer {
+    padding-top: 4%;
+    text-align: center;
+}
+
+
+/* ==== responsive ==== */
+
+@media (max-width: 800px) {
+
+    .container {
+        padding-right: 0px;
+    }
+
+    #left-column {
+        padding-bottom: 15%;
+    }
+
+    #about-me {
+        padding-bottom: 15%;
+    }
+
+    #project-section {
+        margin-left: 0%;
+    }
+
+    #project1, #project2, #project3, #project4, #project5 {
+        width: 100%;
+        height: 130px;
+        margin-bottom: 7%;
+    }
+
+    #projectName {
+        padding-top: 7%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #left-column {
+        padding-bottom: 10%;
+    }
+
+    #about-me {
+        padding-bottom: 3%;
+    }
+
+    #right-column {
+        margin-left: 27%;
+    }
 }
