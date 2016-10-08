@@ -1,6 +1,5 @@
 html {
     padding-top: 5%;
-    padding-left: 10%;
 }
 
 body {
@@ -15,10 +14,6 @@ body {
 
 
 /* ==== sidebar styling ==== */
-
-#left-column {
-    padding-bottom: 10%;
-}
 
 img#my-photo {
     padding-bottom: 10%;
@@ -150,7 +145,7 @@ p#button:hover {
     letter-spacing: 1px;
     color: white;
     font-weight: normal;
-    margin-top: 24%;
+    margin-top: 23%;
     margin-left: 2%;
     text-align: left;
 }
@@ -159,7 +154,7 @@ p#button:hover {
 /* ==== footer ==== */
 
 .footer {
-    padding-top: 4%;
+    padding: 2% 0 1% 0;
     text-align: center;
 }
 
@@ -190,14 +185,12 @@ p#button:hover {
         margin-bottom: 7%;
     }
 
-    #projectName {
-        padding-top: 7%;
-    }
 }
 
 @media (min-width: 1200px) {
     #left-column {
         padding-bottom: 10%;
+        margin-left: 10%;
     }
 
     #about-me {
@@ -205,6 +198,7 @@ p#button:hover {
     }
 
     #right-column {
-        margin-left: 27%;
+        margin-left: 32%;
+        padding-right: 10%;
     }
 }

@@ -19,6 +19,27 @@ $('.back-button').on('click', function() {
     window.location = "../index.html";
 });
 
+
+// microsoft
+$("#project1").on('click', function(){
+     window.location = "views/microsoft.html";
+});
+
+// microsoft
+$("#project2").on('click', function(){
+     window.location = "views/uberexplore.html";
+});
+
+// microsoft
+$("#project3").on('click', function(){
+     window.location = "views/wellesleyhacks.html";
+});
+
+// microsoft
+$("#project4").on('click', function(){
+     window.location = "views/print.html";
+});
+
 // photography
 $("#project5").on('click', function(){
      window.location = "views/photography.html";
