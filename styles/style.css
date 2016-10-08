@@ -1,12 +1,12 @@
 html {
-  padding-top: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
 }
 
 body {
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.7em;
     overflow-x: hidden;
-    padding-left: 10%;
     background-image: url("../assets/background.jpg");
     color: #595959;
     letter-spacing: 1px;
@@ -74,18 +74,18 @@ article {
   border-bottom: 1px solid black;
 }
 
-.read-more-toggle, .read-more-toggle {
+.read-more-button, .read-more-button {
     padding-top: 1%;
 }
 
-p#toggle {
-    font-size: 0.9em;
+p#button {
+    font-size: 0.85em;
     color: #FD8F80;
     letter-spacing: 2px;
 }
 
-p#toggle:hover {
-    font-size: 0.9em;
+p#button:hover {
+    font-size: 0.86em;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
