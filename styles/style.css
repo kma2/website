@@ -4,11 +4,15 @@ html {
 
 body {
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.7em;
     overflow-x: hidden;
     padding-left: 10%;
-    background-image: url("background.jpg");
+    background-image: url("../assets/background.jpg");
     color: #595959;
+    letter-spacing: 1px;
+    line-height: 32px;
 }
+
 
 /* ==== sidebar styling ==== */
 
@@ -20,12 +24,10 @@ img#my-photo {
     padding-bottom: 10%;
 }
 
+
 /* ==== text styling ==== */
 
 p, a {
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 32px;
     color: #707070;
 }
 
@@ -48,10 +50,10 @@ h2 {
 }
 
 #small_text {
-    font-size: 13px;
+    font-size: 0.9em;
     color: #FD8F80;
     letter-spacing: 2px;
-    line-height: 15px;
+    line-height: 1.3em;
 }
 
 
@@ -77,13 +79,13 @@ article {
 }
 
 p#toggle {
-    font-size: 1em;
+    font-size: 0.9em;
     color: #FD8F80;
     letter-spacing: 2px;
 }
 
 p#toggle:hover {
-    font-size: 1.05em;
+    font-size: 0.9em;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
@@ -101,33 +103,39 @@ p#toggle:hover {
     margin-bottom: 4%;
     display: block;
     background-size: 100%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
     -webkit-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
     -moz-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
     box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
+}
 
+.mask:hover {
+    -webkit-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.9);
+    -moz-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.9);
+    box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.9);
+    transition: .2s ease-in-out;
 }
 
 #project1 {
-    background-image: url("./assets/microsoft_banner.png");
+    background-image: url("../assets/microsoft_banner.png");
 }
 
 #project2 {
-    background-image: url("./assets/uberexplore_banner.png");
+    background-image: url("../assets/uberexplore_banner.png");
 }
 
 #project3 {
-    background-image: url("./assets/whack_banner.png");
+    background-image: url("../assets/whack_banner.png");
 }
 
 #project4 {
-    background-image: url("./assets/print_banner.png");
+    background-image: url("../assets/print_banner.png");
 }
 
 #project5 {
-    background-image: url("./assets/photography_banner.png");
+    background-image: url("../assets/photography_banner.png");
 }
 
 #projectName {
@@ -137,11 +145,12 @@ p#toggle:hover {
 }
 
 .project {
-    font-size: 1.2em;
+    font-size: 1em;
+    line-height: 20px;
     letter-spacing: 1px;
     color: white;
     font-weight: normal;
-    margin-top: 21%;
+    margin-top: 24%;
     margin-left: 2%;
     text-align: left;
 }

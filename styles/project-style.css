@@ -1,0 +1,61 @@
+#project-content {
+    margin-left: 50%;
+}
+
+/*html {
+  padding-top: 5%;
+}
+
+body {
+    font-family: 'Proxima Nova Soft', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.7em;
+    overflow-x: hidden;
+    padding-left: 10%;
+    background-image: url("../assets/background.jpg");
+    color: #595959;
+    letter-spacing: 1px;
+    line-height: 32px;
+}*/
+
+
+/* ==== text styling ==== */
+/*
+p, a {
+    color: #707070;
+}
+
+a {
+    border-bottom: 1px dashed #FF7A67;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FD8F80;
+    text-decoration: none;
+    border-bottom: 0px dashed #FD8F80;
+    transition: all .2s ease-in-out;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-size: 30px;
+    line-height: 22px;
+}
+
+#small_text {
+    font-size: 0.9em;
+    color: #FD8F80;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+}*/
+
+
+/* ==== footer ==== */
+/*
+.footer {
+    padding-top: 4%;
+    text-align: center;
+}*/
+
+
+/* ==== responsive ==== */
