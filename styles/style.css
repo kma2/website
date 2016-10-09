@@ -90,6 +90,7 @@ p#button:hover {
 
 #project-section {
     padding-bottom: 2%;
+    margin-left: 0%;
 }
 
 .mask {
@@ -101,16 +102,17 @@ p#button:hover {
     -webkit-border-radius: 11px;
     -moz-border-radius: 11px;
     border-radius: 11px;
-    -webkit-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
-    -moz-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
-    box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.75);
+
+    -webkit-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.75);
+    -moz-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.75);
+    box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.75);
 }
 
 .mask:hover {
-    -webkit-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.9);
-    -moz-box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.9);
-    box-shadow: inset 1px -154px 197px -23px rgba(255,145,105,0.9);
-    transition: .2s ease-in-out;
+    -webkit-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.8);
+    -moz-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.8);
+    box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.8);
+    transition: .1s ease-in-out;
 }
 
 #project1 {
@@ -139,6 +141,10 @@ p#button:hover {
     font-weight: bold;
 }
 
+#projectDesc {
+    color: white;
+}
+
 .project {
     font-size: 1em;
     line-height: 20px;
@@ -154,8 +160,11 @@ p#button:hover {
 /* ==== footer ==== */
 
 .footer {
-    padding: 2% 0 1% 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1% 0 1% 0;
     text-align: center;
+    font-size: 0.9em;
 }
 
 
@@ -175,8 +184,18 @@ p#button:hover {
         padding-bottom: 15%;
     }
 
-    #project-section {
-        margin-left: 0%;
+    .col-sm-12.project {
+        margin-top: 0;
+    }
+
+    #projectName {
+        font-size: 1.2em;
+        line-height: 1.3em;
+        padding-top: 15%;
+    }
+
+    #projectDesc {
+        font-size: 0em;
     }
 
     #project1, #project2, #project3, #project4, #project5 {
