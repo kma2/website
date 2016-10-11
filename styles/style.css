@@ -103,9 +103,9 @@ p#button:hover {
     -moz-border-radius: 11px;
     border-radius: 11px;
 
-    -webkit-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.75);
-    -moz-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.75);
-    box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.75);
+    -webkit-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.70);
+    -moz-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.70);
+    box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.70);
 }
 
 .mask:hover {
