@@ -60,10 +60,35 @@ img.media {
 
 /* ==== text styling ==== */
 
+#project_subheading {
+    font-size: 1.1em;
+    color: #FD8F80;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
 .subtext {
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.5em;
     text-align: center;
+    padding-bottom: 5%;
+}
+
+.emphasize {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 5%;
+    color: #FD8F80;
+}
+
+.section-title {
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /*padding-bottom: 5%;*/
 }
 
 h2 {

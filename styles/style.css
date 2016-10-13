@@ -151,7 +151,7 @@ p#button:hover {
     letter-spacing: 1px;
     color: white;
     font-weight: normal;
-    margin-top: 23%;
+    margin-top: 20vh;
     margin-left: 2%;
     text-align: left;
 }
@@ -170,7 +170,7 @@ p#button:hover {
 
 /* ==== responsive ==== */
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
 
     .container {
         padding-right: 0px;
