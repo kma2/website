@@ -12,6 +12,8 @@ hr {
     display: block;
 }
 
+/* ==== column styling ==== */
+
 .col-centered{
     float: none;
     margin: 0 auto;
@@ -88,12 +90,12 @@ img.media {
     font-size: 1em;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*padding-bottom: 5%;*/
 }
 
 h2 {
-    line-height: 200%;
+    line-height: 150%;
     font-size: 2em;
+    padding-top: 5%;
 }
 
 h3 {
@@ -102,12 +104,8 @@ h3 {
     font-size: 1.5em;
 }
 
-/* ==== header & footer ==== */
-
+/* ==== footer ==== */
 
 hr#footer {
     margin-top: 0px;
 }
-
-
-/* ==== responsive ==== */
