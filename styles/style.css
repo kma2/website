@@ -3,21 +3,24 @@ html {
 }
 
 body {
-    font-family: 'Proxima Nova Soft', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 1.7em;
-    overflow-x: hidden;
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.55em;
+    /*overflow-x: hidden;*/
     background-image: url("../assets/background.jpg");
     color: #595959;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 32px;
 }
 
-
-/* ==== sidebar styling ==== */
-
-img#my-photo {
-    padding-bottom: 10%;
+.social {
+  padding-right: 40px;
+  display: inline;
 }
+
+/*.col-centered {
+  margin: 0 auto;
+  float: none;
+}*/
 
 
 /* ==== text styling ==== */
@@ -39,27 +42,19 @@ a:hover {
 }
 
 h2 {
-    letter-spacing: 3px;
-    font-size: 30px;
-    line-height: 22px;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 15px;
 }
-
-#small_text {
-    font-size: 0.9em;
-    color: #FD8F80;
-    letter-spacing: 2px;
-    line-height: 1.3em;
-}
-
 
 /* ==== right column styling ==== */
 
-#right-column {
-    width: 100%;
-}
-
 #about-me {
-    padding-bottom: 3%;
+    margin: 50px auto 60px auto;
+    float: none;
 }
 
 
@@ -99,9 +94,9 @@ p#button:hover {
     margin-bottom: 4%;
     display: block;
     background-size: 100%;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 
     -webkit-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.70);
     -moz-box-shadow: inset 0px -200px 100px 0px rgba(252,157,128,0.70);
@@ -162,7 +157,6 @@ p#button:hover {
 .footer {
     margin-right: 0;
     margin-left: 0;
-    padding: 1% 0 1% 0;
     text-align: center;
     font-size: 0.9em;
 }
@@ -171,13 +165,8 @@ p#button:hover {
 /* ==== responsive ==== */
 
 @media (max-width: 1200px) {
-
     .container {
         padding-right: 0px;
-    }
-
-    #left-column {
-        padding-bottom: 15%;
     }
 
     #about-me {
@@ -203,21 +192,14 @@ p#button:hover {
         height: 130px;
         margin-bottom: 7%;
     }
-
 }
 
-@media (min-width: 1200px) {
-    #left-column {
-        padding-bottom: 10%;
-        margin-left: 10%;
-    }
+@media (max-width: 600px) {
+  #about-me {
+    margin: 70px 0 0 20px;
+  }
 
-    #about-me {
-        padding-bottom: 3%;
-    }
-
-    #right-column {
-        margin-left: 32%;
-        padding-right: 10%;
-    }
+  .footer {
+      margin: 10px 0 15px 0;
+  }
 }
