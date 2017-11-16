@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
   // box shadow
   $('#whack-preview').hover(function() {
     $('#whack-preview-img').addClass('preview-image-selected');
@@ -28,10 +28,10 @@ $( document ).ready(function() {
   });
 
   // lazy image loading
-  [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-    img.setAttribute('src', img.getAttribute('data-src'));
-    img.onload = function() {
-      img.removeAttribute('data-src');
-    };
-  });
+  // [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+  //   img.setAttribute('src', img.getAttribute('data-src'));
+  //   img.onload = function() {
+  //     img.removeAttribute('data-src');
+  //   };
+  // });
 });
