@@ -1,42 +1,19 @@
-// hide extra bio information
-$('.read-more-content').addClass('hide');
-$('.read-less-content').addClass('hide');
+$( document ).ready(function() {
+  $('#whack-preview').hover(function() {
+    $('#whack-preview-img').addClass('preview-image-selected');
+  }, function() {
+    $('#whack-preview-img').removeClass('preview-image-selected');
+  });
 
-// read more toggle
-$('.read-more-button').on('click', function() {
-  $(this).next('.read-more-content').toggleClass('hide');
-  $(this).toggleClass('hide'); // hides link
-  $('#project-section').css('margin-left', '3%')
-});
+  $('#youtube-preview').hover(function() {
+    $('#youtube-preview-img').addClass('preview-image-selected');
+  }, function() {
+    $('#youtube-preview-img').removeClass('preview-image-selected');
+  });
 
-// read less toggle
-$('.read-less-button').on('click', function() {
-    $('.read-more-content').toggleClass('hide');
-    $('.read-more-button').toggleClass('hide'); // show read more toggle
-    $('#project-section').css('margin-left', '0%')
-});
-
-// back button to return to index
-$('.back-button').on('click', function() {
-    window.location = "../index.html";
-});
-
-// microsoft
-$("#project1").on('click', function(){
-     window.location = "views/microsoft.html";
-});
-
-// wellesley hacks
-$("#project3").on('click', function(){
-     window.location = "views/wellesleyhacks.html";
-});
-
-// print and graphic design
-$("#project4").on('click', function(){
-     window.location = "views/print.html";
-});
-
-// photography
-$("#project5").on('click', function(){
-     window.location = "views/photography.html";
+  $('#microsoft-preview').hover(function() {
+    $('#microsoft-preview-img').addClass('preview-image-selected');
+  }, function() {
+    $('#microsoft-preview-img').removeClass('preview-image-selected');
+  });
 });
