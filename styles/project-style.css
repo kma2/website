@@ -9,6 +9,12 @@
   margin: 20px auto 50px;
 }
 
+.image-small {
+  width: 50%;
+  display: block;
+  margin: 20px auto 50px;
+}
+
 .project-section {
   margin: 30px auto;
   float: none;

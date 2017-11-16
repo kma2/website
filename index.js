@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  // box shadow
   $('#whack-preview').hover(function() {
     $('#whack-preview-img').addClass('preview-image-selected');
   }, function() {
@@ -15,5 +16,14 @@ $( document ).ready(function() {
     $('#microsoft-preview-img').addClass('preview-image-selected');
   }, function() {
     $('#microsoft-preview-img').removeClass('preview-image-selected');
+  });
+
+  // open project detail page
+  $('#youtube-preview').click(function() {
+    window.location = 'projects/youtube.html';
+  });
+
+  $('#microsoft-preview').click(function() {
+    window.location = 'projects/microsoft.html';
   });
 });
