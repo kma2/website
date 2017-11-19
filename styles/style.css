@@ -127,10 +127,15 @@ h2 {
 
 @media (max-width: 600px) {
   .content-section {
-    margin: 100px 0 0 20px;
+    margin: 100px 0 0 0;
+  }
+
+  .text-left {
+    padding-right: 30px;
   }
 
   .preview-image {
-    margin: 50px 0 150px;
+    width: 95%;
+    margin: 50px 0 150px 0;
   }
 }
