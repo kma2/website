@@ -2,7 +2,7 @@ body {
   font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 1.55em;
   background-image: url("../assets/background.jpg");
-  color: #3B3B3B;;
+  color: #3B3B3B;
   letter-spacing: 0.5px;
   line-height: 32px;
 }
@@ -12,16 +12,9 @@ body {
   display: inline-block;
 }
 
-/*header {overflow-y: hidden;}*/
-
-
 /* ==== text styling ==== */
-
-p, a {
-  color: #707070;
-}
-
 a {
+  color: inherit;
   border-bottom: 1px dashed #FF7A67;
   text-decoration: none;
 }
@@ -30,12 +23,7 @@ a:hover {
   color: #FD8F80;
   text-decoration: none;
   border-bottom: 0px dashed #FD8F80;
-  transition: all .2s ease-in-out;
-}
-
-a:link, a:visited {
-  color: inherit;
-  text-decoration: none;
+  transition: all .25s ease-in-out;
 }
 
 h2 {
