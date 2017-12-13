@@ -1,5 +1,10 @@
 $(document).ready(function() {
-  // box shadow
+  $('#emotibubbles-preview').hover(function() {
+    $('#emotibubbles-preview-img').addClass('preview-image-selected');
+  }, function() {
+    $('#emotibubbles-preview-img').removeClass('preview-image-selected');
+  });
+
   $('#whack-preview').hover(function() {
     $('#whack-preview-img').addClass('preview-image-selected');
   }, function() {
