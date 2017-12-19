@@ -33,13 +33,3 @@ h3 {
 .footer {
   margin-top: 100px;
 }
-
-/* lazy image loading */
-/*img {
-  opacity: 1;
-  transition: opacity 0.5s;
-}*/
-
-/*img[data-src] {
-  opacity: 0;
-}*/

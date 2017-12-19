@@ -1,10 +1,10 @@
 body {
-  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1.55em;
+  font-family: 'proxima-nova','Helvetica Neue', Helvetica, sans-serif;
   background-image: url("../assets/background.jpg");
   color: #3B3B3B;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
   line-height: 32px;
+  font-size: 1.55rem;
 }
 
 .social {
@@ -42,7 +42,6 @@ h2 {
   letter-spacing: 1.5px;
   font-size: 22px;
   font-weight: 600;
-  color: #3B3B3B;
   margin-bottom: 0;
 }
 
