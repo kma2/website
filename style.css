@@ -68,6 +68,18 @@ b {
   padding-right: 10px;
 }
 
+
+.bg-particle {
+  padding: 160px 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.bg-white {
+  background-image: url("assets/background.jpg");
+}
+
 .bg-light {
   background-color: #F7F7F7!important;
 }
@@ -93,7 +105,6 @@ header {
   header {
     padding: 156px 0 100px;
   }
-
 }
 
 @media (max-width: 992px) {
@@ -102,12 +113,20 @@ header {
   }
 }
 
-section {
+.section {
   padding: 150px 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
 }
 
 hr {
   margin: 100px 0;
+}
+
+hr.underline {
+  margin: 15px 65px 0 65px;
+  border-top: 3px solid rgba(0,0,0,0.7);
 }
 
 img, video {
