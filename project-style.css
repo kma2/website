@@ -10,8 +10,8 @@
   background-image: url("projects/youtube/cover.jpg");
 }
 
-#emotibubbles-cover {
-  background-image: url("projects/emotibubbles/cover.png");
+#whack-cover {
+  background-image: url("projects/whack/cover.jpg");
 }
 
 #cm-cover {
@@ -24,11 +24,23 @@
 }
 
 .parallax {
-  height: 500px;
+  height: 550px;
   background-color: #F7F7F7;
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 992px) {
+  .parallax {
+    /*height: 400px;*/
+    /*vertical-align: middle;
+    width: 100%;*/
+  }
+
+  /*#whack-cover {
+    background-image: 100%;
+  }*/
 }
 
 .feature-group {

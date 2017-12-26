@@ -5,7 +5,7 @@ body {
   color: rgba(0,0,0,0.8);
 }
 
-a {
+a, a:visited, a:link {
   color: inherit;
   border-bottom: 1px dashed #FF7A67;
   text-decoration: none;
@@ -18,7 +18,7 @@ a:hover {
   transition: all .25s ease-in-out;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
   font-weight: 600;
 }
 
@@ -121,7 +121,7 @@ header {
 }
 
 hr {
-  margin: 100px 0;
+  margin: 150px 0;
 }
 
 hr.underline {
@@ -129,8 +129,17 @@ hr.underline {
   border-top: 3px solid rgba(0,0,0,0.7);
 }
 
+br.large {
+  line-height: 3;
+}
+
 img, video {
   width: 100%;
+}
+
+img {
+  box-shadow: 0 3px 20px rgba(0,0,0,0.09);
+  border-radius: 2px;
 }
 
 img, #carousel, #carousel2 {
