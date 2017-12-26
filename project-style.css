@@ -21,6 +21,7 @@
 #emotibubbles-logo {
   width: 30px;
   margin: 0 15px 0;
+  box-shadow: 0 0 0;
 }
 
 .parallax {
@@ -29,18 +30,6 @@
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-}
-
-@media (max-width: 992px) {
-  .parallax {
-    /*height: 400px;*/
-    /*vertical-align: middle;
-    width: 100%;*/
-  }
-
-  /*#whack-cover {
-    background-image: 100%;
-  }*/
 }
 
 .feature-group {
