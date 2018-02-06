@@ -1,3 +1,3 @@
-## Emotibubbles static website
+## My personal website
 
-This website is live at: https://kma2.github.io/emotibubbles
+Live at: https://katy-ma.com
