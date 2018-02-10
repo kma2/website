@@ -1,7 +1,3 @@
-.cover-img {
-  margin: 0;
-}
-
 #msft-cover {
   background-image: url("projects/microsoft/cover.png");
 }
@@ -18,10 +14,41 @@
   background-image: url("projects/mediacloud/cover.png");
 }
 
+#handshake-cover {
+  background-image: url("projects/handshake/cover.png");
+}
+
+.cover-img {
+  margin: 0;
+}
+
 #emotibubbles-logo {
   width: 30px;
   margin: 0 15px 0;
   box-shadow: 0 0 0;
+}
+
+ul#emotibubbles-materials {
+  list-style-type: disc;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
+}
+
+p.caption {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.left-border {
+  border-left: 4px solid black;
+  padding: 10px 0;
+  margin: 40px 0;
+}
+
+.left-border-text {
+  margin-left: 30px;
 }
 
 .parallax {

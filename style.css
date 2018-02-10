@@ -30,12 +30,18 @@ b {
   font-weight: 600;
 }
 
+ul li, ol li {
+  font-size: 1rem;
+  line-height: 1.9rem;
+  margin-bottom: 20px;
+}
+
 .lead {
-  font-size: 0.97rem;
+  font-size: 1rem;
   line-height: 1.9rem;
 }
 
-.small-text, li {
+.small-text {
   font-size: 0.9rem;
   line-height: 1.5rem;
   font-weight: 300;
@@ -89,14 +95,6 @@ b {
   margin-top: 5px;
 }
 
-ul {
-  list-style-type: disc;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  columns: 2;
-  list-style-position: inside;
-}
-
 header {
   padding: 154px 0 100px;
 }
@@ -130,7 +128,7 @@ hr.underline {
 }
 
 br.large {
-  line-height: 3;
+  line-height: 4;
 }
 
 img, video {

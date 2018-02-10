@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/3f9ee25b59.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../jquery.fancybox.min.css">
     <link href="../../style.css" rel="stylesheet">
     <link href="../../project-style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/tvz0zdo.css">
   </head>
   <body id="page-top">
-    <!-- <img class="no-shadow" src="cover.png"></img> -->
+    <img class="no-shadow" src="cover.png" class="cover-img" style="margin:0"></img>
     <div class="bg-light section">
       <div class="container">
         <div class="col-lg-9 mx-auto">
@@ -27,23 +28,26 @@
               <img style="max-width:55px" class="no-shadow" src="handshake-logo.png"></img>
               <h2>Handshake Redesign</h2>
               <p class="italic-subtitle">Redesigning a university talent platform</p>
-              <br><br>
+              <br class="large">
             </div>
             <!-- left overview -->
             <div class="col-lg-3">
               <p class="tiny-title">timeline</p>
-              <p class="lead">1 week<br><br></p>
+              <p class="lead">1 week<br class="large"></p>
               <p class="tiny-title">role</p>
               <p class="lead">Interaction design, wireframing, user research</p>
+              <br>
             </div>
             <!-- right about -->
             <div class="col-lg-9 mx-auto">
               <p class="tiny-title">about</p>
               <p class="lead">
-                As a UX designer at the MIT Media Lab’s Civic Media group, I’ve had the opportunity to work on several projects related
-                to the development of <a target="_blank" href="https://www.mediacloud.org">Media Cloud</a>, an open-source platform for studying media ecosystems used by
-                media researchers, academics, activists, and organizations around the world. I worked closely with researchers at Civic Media and the lead engineer of Media Cloud
-                to improve the user experience for both novice and expert users.
+                When Wellesley College replaced MyCWS (our previous career site) with <a target="_blank" href="https://www.joinhandshake.com">Handshake</a>,
+                our entire student body collectively happy danced when we found out. Handshake is much more user-friendly and robust that our previous system,
+                and I’m excited about the platform’s future potential. I saw some opportunities to improve Handshake’s student user experience, and wanted to
+                offer some possible solutions.
+                <br><br>
+                <em>Disclaimer: This is a design exercise. I am not affiliated with Handshake.</em>
               </p>
             </div>
           </div>
@@ -53,29 +57,301 @@
 
     <div class="section">
       <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h3>Problem</h3>
+        <div class="col-lg-7 mx-auto">
+          <h3>Meet Handshake</h3>
           <p class="lead">
-            Since Media Cloud was originally built for "expert" users (academic researchers at MIT and Harvard we work closely with),
-            its challenging for novice users to understand the platform (who don't have access to a member of our team to help onboard them). Due to
-            recent press, people all over the world have started using the platform to do their own media research. <b>With a growing user base, it's mission
-            critical that we design with novice users in mind.</b>
+            Handshake is a college career network that aims to transform the recruiting experience for college students,
+            career centers, and employers. The platform gives students access to job opportunities and career resources,
+            helps career centers better serve their students, and provides employers with more efficient access to a broader
+            range of talent. Handshake currently serves 3+ million students, 170+ universities, and 100,000+ employers.
           </p>
-          <br><br>
-          <h3>Research</h3>
+          <br class="large">
+          <h3>Brainstorming</h3>
           <p class="lead">
-            I started by conducting a quick design review of the platform and detailing various bugs and usability issues (organized by priority)
-            in documents which were shared with the team. From this, we fixed some of the bugs that the team considered low hanging fruit. Here are two
-            screenshots (of many) that I annotated:
+            After reading more about the company from their website and getting a better understanding of their mission,
+            I jotted down some quick notes about the product and different user groups.
+          </p>
+        </div>
+        <div class="col-lg-10 mx-auto">
+            <img src="brainstorming.png" class="no-shadow" alt="brainstorming note">
+        </div>
+        <div class="col-lg-7 mx-auto">
+          <p class="lead">
+            <b>A few questions I considered:</b>
+            <ul>
+              <li>Is the platform easy to use and navigate?</li>
+              <li>What problems is Handshake attempting to solve? How effective are the current solutions to these problems?</li>
+              <li>What are students most interested in doing when they visit Handshake?</li>
+              <li>When are students using Handshake, and why?</li>
+              <li>How does Handshake compare to its competitors?</li>
+            </ul>
+          </p>
+          <br class="large">
+          <h3>Design Critique</h3>
+          <p class="lead">
+            Next, I spent some more time exploring all of Handshake’s main features, and did a
+            design critique of the home page, notifications, job search, job listings, and events.
           </p>
         </div>
         <div class="col-lg-11 mx-auto">
-            <img src="audit.png" class="no-shadow" alt="Annotated screenshot">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <a href="critique-home.png" data-fancybox><img src="critique-home.png" alt="home page"/></a>
+            </div>
+            <div class="col-lg-6 mx-auto">
+              <a href="critique-notifications.png" data-fancybox><img src="critique-notifications.png" alt="notification page"></a>
+            </div>
+            <div class="col-lg-6 mx-auto">
+              <a href="critique-jobsearch.png" data-fancybox><img src="critique-jobsearch.png" alt="job search page"></a>
+            </div>
+            <div class="col-lg-6 mx-auto">
+              <a href="critique-events.png" data-fancybox><img src="critique-events.png" alt="events page"></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-7 mx-auto">
+          <br class="large">
+          <h3>Design Critique Summary</h3>
           <p class="lead">
-            Next, I talked to Media Cloud users to gain empathy and better understand their needs, goals, and pain points. I conducted a survey, spoke to users over video chat, and
-            observed as users showed me how they use the product. Here are some of the questions I asked, adjusted based on the user's familiarity with Media Cloud:
+            Learning how to use Handshake takes a little time initially, but I was glad to discover that the most important pieces
+            of the puzzle <em>are</em> there — you just have to find them. As a new user, it’s easy to get lost in the navigation scheme.
+            The home page would be better leveraged if it were completely personalized to the student, provided more relevant
+            recommendations, and summarized everything that’s new since their last visit. Notifications would be more helpful if
+            they were simplified and didn’t force a student to navigate away from their current activity.
+            <br><br>
+            Keeping in mind that college students are extremely busy, and that recruiting adds a significant amount of stress
+            to their lives, Handshake could better serve their students by reducing complexity as much as possible.
+          </p>
+          <br class="large">
+          <h3>User Research</h3>
+          <p class="lead">
+            To gain a better understanding of how students are using Handshake, I conducted a simple survey, several interviews,
+            and some online research. The people I surveyed/interviewed were a mix of Wellesley College students and undergraduates
+            at other schools around the country. <a href="https://docs.google.com/a/wellesley.edu/forms/d/1FCfkSOHI87XxXb1odLIj8-gg01kz67YJJAXMGweqqII/viewanalytics">You can view all 56 survey responses here</a>.
+            <br><br>
+            <b>Here's what I learned:</b>
+            <ul>
+              <li>Overall, students rated Handshake 6.7/10 for intuitiveness</li>
+              <li>40% of students immediately look at jobs & internships</li>
+              <li>Most commonly used features: scheduling appointments with counselors (71%), browsing jobs and internships (64%), and browsing/RSVPing to events (39%)</li>
+              <li>Many students struggle with navigation, often having difficulty finding the resources page and their saved jobs</li>
+              <li>Students often don't understand the value of completing their profile</li>
+              <li>In general, students say they’ve benefitted from Handshake, but they strongly desire a more personalized experience throughout the site</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-lg-12 mx-auto">
+            <img src="surveyresults.png" class="no-shadow" alt="survey results">
+        </div>
+        <div class="col-lg-7 mx-auto">
+            <b>A snapshot of what students had to say:</b>
+            <div class="left-border">
+              <p class="left-border-text">
+                <em>“It is pretty easy to use overall, however, there is so much stuff on handshake that it can be extremely overwhelming.”
+                  <br><br>“I don’t feel that handshake is personalized for me, there are a lot of things that show up that are irrelevant to my interests.”
+                  <br><br>“I thought I applied to several internships, but later realized that I only submitted my resume through Handshake, and then needed to additionally go to the internship URL and do more application steps.”
+                  <br><br>“I still have a hard time figuring some things out, like when I favorite a job post without applying to it, how do I find it again?”
+                </em>
+              </p>
+            </div>
+            <br class="large">
+            <h3>Design Goals</h3>
+            <p class="lead">
+              <b>Based on user feedback, I defined goals for my redesign:</b>
+              <ol>
+                <li><b>Reduce complexity.</b> To reduce the cognitive load it requires to use Handshake, highlight only the most important information.</li>
+                <li><b>Consistency.</b> Unify the visual identity and establish a clearer information hierarchy throughout the platform.</li>
+                <li><b>Fluid Navigation.</b> Make features more discoverable and accessible. Students should easily be able to find what they’re looking for.</li>
+                <li><b>Personalization.</b> Create an experience that’s completely focused on the student’s individual needs and goals.</li>
+              </ol>
+            </p>
+            <br class="large">
+            <h3>Design Explorations</h3>
+            <p class="lead">
+              I began exploring the direction of my redesign by considering the website's information architecture.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <a href="architecture-diagram.png" data-fancybox><img src="architecture-diagram.png" class="no-shadow" alt="original site map"/></a>
+              <p class="caption">Original site map</p>
+            </div>
+            <div class="col-lg-6 mx-auto">
+              <a href="redesign-architecture.png" data-fancybox><img src="redesign-architecture.png" class="no-shadow" alt="redesigned site map"/></a>
+              <p class="caption">Final redesigned site map</p>
+            </div>
+          </div>
+          <br class="large">
+          <div class="col-lg-7 mx-auto">
+            <p class="lead">
+              I always like to start out my wireframing process with sketches and low-fidelity wireframes, in order to focus on organizing information rather than visual aesthetics. Here are a few of my low-fidelity explorations:
+            </p>
+          </div>
+          <div class="col-lg-9 mx-auto">
+            <a href="redesign-lofi-compilation.png" data-fancybox><img src="redesign-lofi-compilation.png" alt="low fidelity wireframes"></a>
+            <hr>
+            <h2>Final Design</h2>
+            <p class="lead">
+              In my final designs, I decided to focus on the home page and job search page, which are two very frequently visited pages.
+              I aimed to create a simple, functional, visually elegant, and intuitive design solution.
+            </p>
+            <br class="large">
+            <h4>Redesigned Home Page</h4>
+            <div class="feature-group">
+              <div class="row">
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Personalization</b><br>Recommendations are tailored to the user’s career interests.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Metadata</b><br>All important details about jobs and events are presented while keeping a clean layout.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Card carousel</b><br>Easily browse through more options without leaving the Home page.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Accent colors</b><br>Calendar items and notifications are color coded to distinguish appointments, events, interviews, and resources.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="redesign-home.png" class="no-shadow" alt="redesigned home page">
+            <hr>
+          </div>
+          <div class="col-lg-11 mx-auto">
+            <div class="row">
+              <div class="col-lg-4">
+                <br class="large">
+                <h4>Notifications</h4>
+                <p class="lead">Easily check notifications and dismiss them without leaving the Home page. Notifications are color coded based on different categories.</p>
+              </div>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-7">
+                <a href="redesign-notifications.gif" data-fancybox><img src="redesign-notifications.gif" alt="redesigned notifications" /></a>
+              </div>
+            </div>
+            <br class="large">
+            <div class="row">
+              <div class="col-lg-4">
+                <br class="large">
+                <h4>Favorites</h4>
+                <p class="lead">Hover over a job, event, or resource to add it to your favorites. A toast notification with a hyperlink to the user's favorites appears, making saved favorites more discoverable.</p>
+              </div>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-7">
+                <a href="redesign-favorites.gif" data-fancybox><img src="redesign-favorites.gif" alt="redesigned favorites" /></a>
+              </div>
+            </div>
+            <br class="large">
+            <div class="row">
+              <div class="col-lg-4">
+                <br class="large">
+                <h4>Content Carousel</h4>
+                <p class="lead">Browse more similar events and jobs without leaving the Home page. Recommendations are grouped and tailored to every student's unique profile, which includes their career interests, class year, and past Handshake activity.</p>
+              </div>
+              <div class="col-lg-1"></div>
+              <div class="col-lg-7">
+                <a href="redesign-carousel.gif" data-fancybox><img src="redesign-carousel.gif" alt="card carousel" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 mx-auto">
+            <hr>
+            <br class="large">
+            <h4>Redesigned Job Search Page</h4>
+            <div class="feature-group">
+              <div class="row">
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Two level menu</b><br>Easy navigation between various sub-pages without adding clutter to the Home page.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Everything job-related in one place</b><br>Applied jobs, documents, and career interests all under the "Jobs" tab.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Seamless searching & filtering</b><br>Begin searching with only a keyword, and add more filters as needed.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mx-auto feature-1-col">
+                  <div class="row">
+                    <div class="col-sm-1"><i class="purple-fa fa fa-angle-right" aria-hidden="true" style="font-size:1.5rem"></i></div>
+                    <div class="col-sm-10"><b>Saved searches panel</b><br>Users can select old saved searches, or save a new search.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="redesign-jobsearch.png" class="no-shadow" alt="redesigned job search page">
+          </div>
+          <br class="large">
+          <div class="col-lg-7 mx-auto">
+            <hr>
+            <h3>Usability Testing + Feedback</h3>
+            <p class="lead">
+              To learn how users would respond to my designs, I conducted in-person user tests with 15 students (10 Handshake users and 5 non-Handshake users).
+            </p>
+            <br class="large">
+            <h5>Handshake Users</h5>
+            <p class="lead">I started by asking 10 students who were already Handshake users to compare the Home Page and Jobs Page of the original design and my redesign. The students I surveyed came
+              from 3 different schools, represented all four class years, and had a wide variety in their areas of study. They had varying frequencies of use and familiarity with Handshake.
+            </p>
+            <div class="left-border">
+              <p class="left-border-text">
+                <em>"Usually I get kinda overwhelmed when I check Handshake, but this looks clean and organized, and it still feels like I'm getting the same information."
+                  <br><br>"I would be excited to check back for new jobs because they're personalized for me  and right there on the home page."
+                  <br><br>"I like that it says whether the job is paid or unpaid - that's a really important factor for me. It's nice to see it upfront without having to go to another page, sometimes only to be disappointed to see
+                  that a position is unpaid after getting excited about it from reading the job description."
+                  <br><br>"Whoa I never knew you could save searches! This makes it really easy to save a search and pull it up again later."
+                  <br><br>"I love the top bar. The categories are easy to understand and I can find the page I'm looking for much quicker (compared to the sidebar layout)."
+                </em>
+              </p>
+            </div>
+            <p class="lead">
+              Comparing the two designs:
+              <ul>
+                <li><b>10/10</b> chose the redesign when asked: "Overall, which design do you prefer?"</li>
+                <li><b>9/10</b> chose the redesign when asked: "Which design's job filtering interface feels more intuitive to you?"</li>
+                <li><b>8/10</b> preferred the horizontal navigation (redesign) over the sidebar navigation (original). 1 student who chose the original admitted that their primary reason for choosing it was because they were already used to it.</li>
+                <li><b>10/10</b> preferred the notifications panel (redesign) over the separate notifications page (original)</li>
+              </ul>
+            </p>
+            <br class="large">
+            <h5>Non-Handshake Users</h5>
+            <p class="lead">
+              For the following set of questions, I found 5 college students who were <em>not</em> Handshake users so that prior experience with the platform
+              wouldn't influence the results.
+              <br><br>
+              <b>1. Testing the discoverability of "Favorite Jobs":</b> <em>"Imagine that earlier this week you saved some internships you're interested in. Start from the Home page and try to find your saved internships again."</em><br><br>
+              <b>Result:</b> On average, it took <b>7 seconds</b> for students to find "Favorite Jobs" in the redesigned version, compared to <b>11 seconds</b> in the original design.
+              <br><br><br>
+              <b>2. Testing the discoverability of "Save Search":</b> <em>On the Jobs Page, how would you save a search?"</em><br><br>
+              <b>Result:</b> On average, it took students <b>3 seconds</b> to find the "Save search" button in the redesigned version, and all 5 students were able to find it. In the original, it took 4 students an average of <b>11 seconds</b> to find, and 1 student wasn't able to find it at all by the time a whole minute had passed.
+            </p>
+            <br class="large">
+            <h5>All Students</h5>
+            <p class="lead">
+              I was super excited that the feedback on my redesign was overwhelmingly positive! Overall, students found it to be more user-friendly and visually appealing than the original.
+              However, even if a student had a positive reaction to the redesign, I still asked them if there was anything they didn't like or thought could be better.
+              <br><br>
+              A few of the Handshake users admitted that since they were already used to the original version, it might take them a little time initially to get used to the new design.
+              3 students mentioned that the blue navigation bar reminded them of LinkedIn (1 student liked this, and the 2 others were neutral).
+            </p>
           </div>
         </div>
       </div>
@@ -87,7 +363,7 @@
         <div class="col-lg-12 text-center">
           <br>
           <p class="small-text">I'd love to chat! Drop me a line at <a href="mailto:katy.ma@wellesley.edu">katy.ma@wellesley.edu</a>
-          <br><br>Katy Ma © 2017</p>
+          <br class="large">Katy Ma © 2017</p>
         </div>
       </div>
     </footer>
@@ -97,6 +373,7 @@
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/jquery.fancybox.min.js"></script>
 
   </body>
 
